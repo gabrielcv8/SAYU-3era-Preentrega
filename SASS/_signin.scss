@@ -1,0 +1,48 @@
+.backgroundBodyPurple {
+    background-color: #88527f;
+}
+
+/*Ajuste imagen de logo login*/
+.ajusteLogoSignIn {
+    display: flex;
+    justify-content: center;
+}
+
+/*Propiedad botón Sign in*/
+.botonSignIn {
+    background-color: #614344;
+
+    &:hover {
+        background-color: #8a6d6d;
+    }
+}
+
+/*Sin fondo el footer*/
+.footerSinFondo {
+    background-color: #ffffff00;
+    padding-top: 6%;
+    font-size: 65%;
+}
+
+body {
+    display: block;
+    main {
+        form {
+            div {
+                /*Seprar inputs*/
+                padding-bottom: 0.5%;
+
+                input {
+                    /*Propiedades a los inputs*/
+                    border-radius: 10px;
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+
+        div {
+            color: #ffffff;
+        }
+    }
+}

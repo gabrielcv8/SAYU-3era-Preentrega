@@ -1,0 +1,60 @@
+/*Reset css*/
+* {
+    margin: 0;
+
+}
+
+/*Color de fondo de páginas*/
+.backgroundBody {
+    background-color: #FAB2EA;
+}
+
+@import "_shops.scss";
+@import "_signin.scss";
+@import "_404.scss";
+
+/*Fondo para el footer*/
+.fondoFooter {
+    background-image: url(../assets/pie_pagina_morado.png);
+}
+
+body {
+
+    header nav {
+        /*Quitando el fondo de la Nav*/
+        background-color: #614344;
+
+        .textNav {
+            color: #ffffff;
+        }
+
+        div a {
+            width: 5%;
+        }
+    }
+
+    .claseImagenPortada {
+        /*Ajustando la futura sección*/
+        width: 100%;
+    }
+
+    footer {
+        .claseIconosPortada {
+            /*Ajuste iconos del footer*/
+            padding-top: 10%;
+            width: 12%;
+        }
+
+        .backTop {
+            /*Ajuste para el icono de back to top*/
+            width: 50%;
+            padding-top: 0%;
+        }
+
+        div {
+            /*Propiedad para la letra Copyright*/
+            color: #ffffff;
+            font-size: 130%;
+        }
+    }
+}

@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*Reset css*/
+* {
+  margin: 0;
+}
+
+/*Color de fondo de páginas*/
+.backgroundBody {
+  background-color: #FAB2EA;
+}
+
+/*Propiedad y ajustes de encales de Shops*/
+.ajusteMainShops {
+  padding: 15%;
+}
+.ajusteMainShops div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.ajusteMainShops div div div a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 200%;
+}
+
+.backgroundBodyPurple {
+  background-color: #88527f;
+}
+
+/*Ajuste imagen de logo login*/
+.ajusteLogoSignIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*Propiedad botón Sign in*/
+.botonSignIn {
+  background-color: #614344;
+}
+.botonSignIn:hover {
+  background-color: #8a6d6d;
+}
+
+/*Sin fondo el footer*/
+.footerSinFondo {
+  background-color: rgba(255, 255, 255, 0);
+  padding-top: 6%;
+  font-size: 65%;
+}
+
+body {
+  display: block;
+}
+body main form div {
+  /*Seprar inputs*/
+  padding-bottom: 0.5%;
+}
+body main form div input {
+  /*Propiedades a los inputs*/
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+body main div {
+  color: #ffffff;
+}
+
+/*Colo de fondo del body para el 404*/
+.background404 {
+  background-color: #614344;
+}
+
+/*Ajuste al div*/
+.ajusteDiv404 {
+  padding-left: 20%;
+}
+
+body div h6 {
+  padding-top: 2%;
+}
+body div h2 span {
+  font-size: 45%;
+}
+
+/*Fondo para el footer*/
+.fondoFooter {
+  background-image: url(../assets/pie_pagina_morado.png);
+}
+
+body header nav {
+  /*Quitando el fondo de la Nav*/
+  background-color: #614344;
+}
+body header nav .textNav {
+  color: #ffffff;
+}
+body header nav div a {
+  width: 5%;
+}
+body .claseImagenPortada {
+  /*Ajustando la futura sección*/
+  width: 100%;
+}
+body footer .claseIconosPortada {
+  /*Ajuste iconos del footer*/
+  padding-top: 10%;
+  width: 12%;
+}
+body footer .backTop {
+  /*Ajuste para el icono de back to top*/
+  width: 50%;
+  padding-top: 0%;
+}
+body footer div {
+  /*Propiedad para la letra Copyright*/
+  color: #ffffff;
+  font-size: 130%;
+}
