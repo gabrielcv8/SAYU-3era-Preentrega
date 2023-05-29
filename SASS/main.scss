@@ -9,8 +9,13 @@
     background-color: #FAB2EA;
 }
 
+/* Variables */
+@import "_variables.scss";
+/* Estilos Shops */
 @import "_shops.scss";
+/* Estilos SignIn */
 @import "_signin.scss";
+/* Estilos Error 404 */
 @import "_404.scss";
 
 /*Fondo para el footer*/
@@ -18,17 +23,20 @@
     background-image: url(../assets/pie_pagina_morado.png);
 }
 
+/* El index */
 body {
 
     header nav {
-        /*Quitando el fondo de la Nav*/
+        /*Fondo de la Nav*/
         background-color: #614344;
 
         .textNav {
+            /* Color de texo de la Nav */
             color: #ffffff;
         }
 
         div a {
+            /* El contenedor de los iconos de la nav */
             width: 5%;
         }
     }
