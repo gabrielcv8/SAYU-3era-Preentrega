@@ -9,6 +9,20 @@
   background-color: #FAB2EA;
 }
 
+/* Variables */
+/*Para los modelos*/
+.imagenPlomo {
+  -webkit-filter: grayscale(0%) contrast(1);
+          filter: grayscale(0%) contrast(1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.imagenPlomo:hover {
+  -webkit-filter: grayscale(50%) contrast(0.5);
+          filter: grayscale(50%) contrast(0.5);
+}
+
+/* Estilos Shops */
 /*Propiedad y ajustes de encales de Shops*/
 .ajusteMainShops {
   padding: 15%;
@@ -24,6 +38,7 @@
   font-size: 200%;
 }
 
+/* Estilos SignIn */
 .backgroundBodyPurple {
   background-color: #88527f;
 }
@@ -70,6 +85,7 @@ body main div {
   color: #ffffff;
 }
 
+/* Estilos Error 404 */
 /*Colo de fondo del body para el 404*/
 .background404 {
   background-color: #614344;
@@ -92,14 +108,17 @@ body div h2 span {
   background-image: url(../assets/pie_pagina_morado.png);
 }
 
+/* El index */
 body header nav {
-  /*Quitando el fondo de la Nav*/
+  /*Fondo de la Nav*/
   background-color: #614344;
 }
 body header nav .textNav {
+  /* Color de texo de la Nav */
   color: #ffffff;
 }
 body header nav div a {
+  /* El contenedor de los iconos de la nav */
   width: 5%;
 }
 body .claseImagenPortada {
