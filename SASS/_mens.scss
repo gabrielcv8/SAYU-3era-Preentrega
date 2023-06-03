@@ -1,0 +1,10 @@
+.imagenPlomo {
+    filter: grayscale(100%) contrast(0.5);
+    transition: 3s;
+    &:hover {
+        filter: grayscale(100%) contrast(0.5);
+    }
+}
+    
+
+
