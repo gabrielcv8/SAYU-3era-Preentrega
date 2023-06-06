@@ -5,3 +5,13 @@
         filter: grayscale(50%) contrast(0.5);
     }
 }
+
+/*Ajuste y Propiedades del Ready to Wear*/
+.ajusteH {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-family: $Anton;
+    padding-top: 45px;
+    text-shadow: 2px 2px 4px #00000079;
+}

@@ -22,10 +22,24 @@
           filter: grayscale(50%) contrast(0.5);
 }
 
+/*Ajuste y Propiedades del Ready to Wear*/
+.ajusteH {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+  font-family: "Anton", sans-serif;
+  padding-top: 45px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4745098039);
+}
+
 /* Estilos Shops */
 /*Propiedad y ajustes de encales de Shops*/
 .ajusteMainShops {
-  padding: 15%;
+  padding: 4.31%;
 }
 .ajusteMainShops div {
   -webkit-box-align: center;
@@ -65,7 +79,7 @@
 /*Sin fondo el footer*/
 .footerSinFondo {
   background-color: rgba(255, 255, 255, 0);
-  padding-top: 6%;
+  padding-top: 5%;
   font-size: 65%;
 }
 
