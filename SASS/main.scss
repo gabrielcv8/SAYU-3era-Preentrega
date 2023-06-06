@@ -17,6 +17,8 @@
 @import "_shops.scss";
 /* Estilos SignIn */
 @import "_signin.scss";
+/* Estilos Modelo 1 */
+@import "_shoemen.scss";
 /* Estilos Error 404 */
 @import "_404.scss";
 
@@ -65,6 +67,8 @@ body {
             /*Propiedad para la letra Copyright*/
             color: #ffffff;
             font-size: 130%;
+            font-family: $Roboto;
+            text-shadow: 2px 2px 4px #000000ab;
         }
     }
 }

@@ -1,0 +1,182 @@
+/*Ajuste de imágen del modelo 1*/
+main article section {
+    img {
+        width: 100%;
+    }
+    h2 {
+        /*Propiedad Titulo Modelo 1*/
+        color: #ffffff;
+        text-shadow: 2px 2px 4px #000000ab;
+    }
+    h3 {
+        /*Propiedad subtitulos Modelo 1*/
+        color: #ffffff;
+        text-shadow: 2px 2px 4px #000000ab;
+    }
+    p {
+        /*Propiedad parrafo modelo 1*/
+        color: #ffffff;
+        text-shadow: 2px 2px 4px #000000ab;
+    }
+}
+
+/*Grid a la Imagen*/
+.gridImg {
+    grid-area: img;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Grid al title Nike*/
+.gridTitle {
+    grid-area: t;
+    display: flex;
+    justify-content: flex-end;
+    font-family: $Anton;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000ab;
+}
+
+/*Grid a las Tallas*/
+.gridTallas {
+    grid-area: size;
+}
+
+/*Grid al desplegable tallas*/
+.gridDes {
+    grid-area: des;
+}
+
+.gridCost {
+    grid-area: cost;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Grid al Texto*/
+.gridP {
+    grid-area: p;
+    text-align: justify;
+}
+
+/*Grid Cantidad*/
+.gridCant {
+    grid-area: cant;
+}
+
+/*Grid Numero de la Cantidad*/
+.gridNum {
+    grid-area: num;
+}
+
+/*Grid Numero de al Boton*/
+.gridBt {
+    grid-area: bt;
+}
+
+/*Uso de Media Queries min-width 678px*/
+@media screen and (min-width: 678px) {
+    .gridArticle {
+        display: grid;
+        grid-template-columns: 32% 8% 12% 8% 8% 32%;
+        grid-template-rows: 30% min-content min-content min-content min-content min-content;
+        grid-template-areas:
+            "img . . . . ."
+            "img . t t t t"
+            "img . size des . cost"
+            "img . p p p p"
+            "img . cant cant num bt"
+            "img . . . . .";
+        grid-column-gap: 1px;  
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 74px;
+        padding-bottom: 68px;
+    }
+
+    .flexSection {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 20px;
+    }
+
+    .ajusteImagenModelo {
+        width: 20%;
+    }
+}
+
+/*Uso de Media Queries 324> x <677px*/
+@media screen and (min-width: 324px) and (max-width: 677px) {
+    main article section img {
+        width: 100%;
+    }
+
+    .gridArticle {
+        display: grid;
+        grid-template-columns: 45% 25% 8% 22%;
+        grid-template-rows: min-content min-content min-content min-content min-content min-content;
+        grid-template-areas: 
+        "img t t t"
+        "img cost . ."
+        "img size des des"
+        "img cant cant num"
+        "img bt . ."
+        "p p p p";
+        grid-column-gap: 1px;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+    }
+
+    .flexSection {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+
+    .ajusteImagenModelo {
+        width: 50%;
+        padding-bottom: 15px;
+        padding-right: 10px;
+    }
+}
+
+/*Uso de Media Queries 294> x <323px*/
+@media screen and (min-width: 294px) and (max-width: 323px) {
+    main article section img {
+        width: 100%;
+    }
+
+    .gridTitle{
+        justify-content: center;
+    }
+
+    .gridArticle {
+        display: grid;
+        grid-template-columns: 25% 8% 67%;
+        grid-template-rows: min-content min-content min-content min-content 5% min-content min-content;
+        grid-template-areas:
+        "t t t"
+        "size des ."
+        "cant cant num"
+        "img img img"
+        ". . ."
+        "bt . cost"
+        "p p p";
+        grid-column-gap: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+    }
+
+    .ajusteImagenModelo {
+        width: 100%;
+        display: block;
+        padding-bottom: 15px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
